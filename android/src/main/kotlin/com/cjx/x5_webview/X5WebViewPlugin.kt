@@ -154,8 +154,8 @@ class X5WebViewPlugin : MethodCallHandler, FlutterPlugin, ActivityAware {
                             Log.d("QbSdk", msg)
                         }
                     } else {
-                        Toast.makeText(mContext, "X5Sdk无法打开此文件", Toast.LENGTH_LONG).show()
-                        result.success("X5Sdk无法打开此文件")
+                        Toast.makeText(mContext, "无法打开此文件", Toast.LENGTH_LONG).show()
+                        result.success("无法打开此文件")
                     }
                 }
             }
